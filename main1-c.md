@@ -10,9 +10,11 @@ int multi(int, int);
 int _tmain(int argc, char * argv[])
 {
 	int a, b, c;
+	int number, number2, result;
 	char Operator;
 
 	printf("Please enter a expression");
+	printf("Please enter a expression: ");
 	scanf("%d %d %d", &a, &Operator, &b);
 
 	switch(Operator)
